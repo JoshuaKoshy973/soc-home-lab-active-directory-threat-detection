@@ -1,0 +1,3 @@
+index=* source="WinEventLog:Security"
+EventCode=4625
+| table _time host source sourcetype EventCode
