@@ -1,0 +1,3 @@
+index=* source="WinEventLog:Microsoft-Windows-Sysmon/Operational"
+"Process Create"
+| table _time host source sourcetype
