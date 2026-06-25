@@ -1,0 +1,2 @@
+index=* source="WinEventLog:Security" (EventCode=4720 OR EventCode=4728 OR EventCode=4732)
+| table _time host source sourcetype EventCode
